@@ -1,0 +1,182 @@
+body{
+    padding:0;
+    margin:0;
+    background-color:rgb(136, 136, 215);
+    p{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    h2,h1{
+        font-family:dancing, sans-serif;
+        font-size:40px;
+        text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+
+    }
+    h3{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:20px;
+        
+    }
+    .navigation{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor:pointer;
+    }
+}
+@font-face {
+    font-family: dancing;
+    src: url(/medias/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+.personalpresentation{
+    width:60%;
+    text-align:justify;
+    line-height:20px;
+    margin:auto;
+    border:2px solid white;
+    padding:15px;
+}
+
+.navigation{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    a{
+        text-decoration:none;
+        color:black;
+        font-weight:bold;
+    }
+    ul{
+        display:flex;
+        flex-direction:row;
+        list-style-type: none;
+        margin-left:80px;
+    }
+    li{
+        width:280px;
+        &:hover{
+            color:white;
+            font-weight: bold;
+        }
+    }
+    img{
+        border-radius:50%;
+        height:70px;
+    }
+}
+.main{
+    img{
+        width:100%;
+        height:400px;
+    }
+    h1, h2{
+        text-align:center;
+    }
+}
+.xp{
+    display:flex;
+    flex-direction:row;
+    margin:20px;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    .ouvrier{
+        background-color:#b16ef9;
+        width:650px;
+        margin:20px;
+        padding:10px;
+        border-radius:30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .agriculture{
+        background-color:#b16ef9;
+        width:650px;
+        margin:20px;
+        padding:10px;
+        border-radius:30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .vente{
+        background-color:#b16ef9;
+        width:650px;
+        margin:20px;
+        padding:10px;
+        border-radius:30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .restauration{
+        background-color:#b16ef9;
+        width:650px;
+        margin:20px;
+        padding:10px;
+        border-radius:30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .resume{
+        background-color:#b16ef9;
+        width:650px;
+        margin:20px;
+        padding:10px;
+        border-radius:30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+.savoirfetre{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin:20px;
+    justify-content:space-around;
+    h3{
+        text-align:center
+    }
+    .savoirfaire{
+        display:flex;
+        flex-direction:column;
+        width:600px;
+        background-color:#b16ef9;
+        padding:10px;
+        border-radius:50px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top:20px;
+    }
+    .savoiretre{
+        display:flex;
+        flex-direction:column;
+        width:600px;
+        background-color:#b16ef9;
+        padding:9px;
+        border-radius:50px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top:20px;
+
+    }
+}
+
+.mespassions{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    .jv,.cuisine,.histoire{
+        display:flex;
+        flex-direction:column;
+        width:360px;
+        margin:20px;
+    }
+    .sport{
+        display:flex;
+        flex-direction:column;
+        width:150px;
+    }
+}
+footer{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding-left:80px;
+    background-color:black;
+    color:white;
+    p{
+        margin-left:80px;
+        border-bottom:1px solid white;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "personnal_portfolio",
+  "version": "1.0.0",
+  "description": "Interactiv curriculum vitae",
+  "main": "index.js",
+  "scripts": {
+    "sass": "./sass/style.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cofefefe/personnal_portfolio.git"
+  },
+  "author": "Baugard Mathieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cofefefe/personnal_portfolio/issues"
+  },
+  "homepage": "https://github.com/cofefefe/personnal_portfolio#readme"
+}

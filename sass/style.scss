@@ -23,7 +23,7 @@ body{
 }
 @font-face {
     font-family: dancing;
-    src: url(/medias/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+    src: url(../medias/Dancing_Script/DancingScript-VariableFont_wght.ttf);
 }
 
 .personalpresentation{
@@ -39,6 +39,10 @@ body{
     display:flex;
     flex-direction:row;
     align-items:center;
+    
+    .contact{
+        margin-left:80px;
+    }
     a{
         text-decoration:none;
         color:black;
@@ -48,10 +52,10 @@ body{
         display:flex;
         flex-direction:row;
         list-style-type: none;
-        margin-left:80px;
     }
     li{
-        width:280px;
+        width:290px;
+        display:flex;
         &:hover{
             color:white;
             font-weight: bold;
@@ -154,18 +158,134 @@ body{
 .mespassions{
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
     flex-wrap:wrap;
+    max-width:100%;
+    margin-bottom:20px;
+    margin-left:20%;
+    
     .jv,.cuisine,.histoire{
         display:flex;
         flex-direction:column;
-        width:360px;
-        margin:20px;
+        width:300px;
+        margin-top:20px;
+        .rocketLeague{
+            background-image:url("../medias/rocketleagueresize.png");
+            padding:0;
+            margin:15px 0;
+            height:60px;
+            background-repeat: no-repeat;
+            font-size:20px;
+            color:white;
+            font-weight:bold;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-radius:30px;
+            max-width:220px!important;
+            &:hover{
+                transform:brightness(1.5)
+            }
+        }
+        .gestion{
+            margin-top:15px;
+            border-radius:30px;
+            background-image:url("../medias/civresize.png");
+            padding:0;
+            margin:auto 0;
+            height:60px;
+            background-repeat: no-repeat;
+            width:220px!important;
+            background-repeat: no-repeat;
+            font-size:20px;
+            color:white;
+            font-weight:bold;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            &:hover{
+                transform:brightness(1.5)
+            }
+        }
+        .moule{
+            background-image:url("../medias/moule.png");
+            padding:0;
+            margin:auto 0;
+            height:60px;
+            background-repeat: no-repeat;
+            width:220px!important;
+            font-size:20px;
+            color:white;
+            font-weight:bold;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-radius:30px;
+            &:hover{
+                transform:brightness(1.5)
+            }
+        }
+        .interethistoire{
+            background-image:url("../medias/histoire.png");
+            padding:0;
+            margin:auto 0;
+            height:60px;
+            background-repeat: no-repeat;
+            width:220px!important;
+            font-size:20px;
+            color:white;
+            font-weight:bold;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-radius:30px;
+            &:hover{
+                transform:brightness(1.5)
+            }
+        }
+        
     }
     .sport{
         display:flex;
         flex-direction:column;
         width:150px;
+        .football{
+            transform:brightness(1);
+            background-image:url("../medias/football.png");
+            padding:0;
+            margin:auto 0;
+            height:60px;
+            background-repeat: no-repeat;
+            width:250px!important;
+            font-size:20px;
+            color:white;
+            font-weight:bold;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-radius:30px;
+            &:hover{
+                transform:brightness(1.5)
+
+            }
+            
+        }
+        .course{
+            background-image:url("../medias/course.png");
+            padding:0;
+            margin:auto 0;
+            height:60px;
+            background-repeat: no-repeat;
+            width:250px!important;
+            font-size:20px;
+            color:white;
+            font-weight:bold;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-radius:30px;
+            
+            
+        }
     }
 }
 footer{

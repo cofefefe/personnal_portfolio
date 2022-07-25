@@ -54,7 +54,7 @@ body{
         list-style-type: none;
     }
     li{
-        width:290px;
+        width:240px;
         display:flex;
         &:hover{
             color:white;
@@ -136,21 +136,24 @@ body{
         display:flex;
         flex-direction:column;
         width:600px;
-        background-color:#b16ef9;
+        background-image:url("../medias/fallout.png");
         padding:10px;
         border-radius:50px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         margin-top:20px;
+        color:white
+    
     }
     .savoiretre{
         display:flex;
         flex-direction:column;
         width:600px;
-        background-color:#b16ef9;
+        background-image:url("../medias/fallout.png");
         padding:9px;
         border-radius:50px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         margin-top:20px;
+        color:white
 
     }
 }
@@ -160,9 +163,8 @@ body{
     flex-direction:row;
     flex-wrap:wrap;
     max-width:100%;
-    margin-bottom:20px;
-    margin-left:20%;
-    
+    justify-content:center;
+    margin-bottom:30px;    
     .jv,.cuisine,.histoire{
         display:flex;
         flex-direction:column;
@@ -248,7 +250,9 @@ body{
         display:flex;
         flex-direction:column;
         width:150px;
+        
         .football{
+            margin:0;
             transform:brightness(1);
             background-image:url("../medias/football.png");
             padding:0;
@@ -270,6 +274,7 @@ body{
             
         }
         .course{
+            margin:0;
             background-image:url("../medias/course.png");
             padding:0;
             margin:auto 0;

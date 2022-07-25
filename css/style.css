@@ -52,7 +52,7 @@ body .navigation {
   list-style-type: none;
 }
 .navigation li {
-  width: 290px;
+  width: 240px;
   display: flex;
 }
 .navigation li:hover {
@@ -134,21 +134,23 @@ body .navigation {
   display: flex;
   flex-direction: column;
   width: 600px;
-  background-color: #b16ef9;
+  background-image: url("../medias/fallout.png");
   padding: 10px;
   border-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: 20px;
+  color: white;
 }
 .savoirfetre .savoiretre {
   display: flex;
   flex-direction: column;
   width: 600px;
-  background-color: #b16ef9;
+  background-image: url("../medias/fallout.png");
   padding: 9px;
   border-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: 20px;
+  color: white;
 }
 
 .mespassions {
@@ -156,8 +158,8 @@ body .navigation {
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 100%;
-  margin-bottom: 20px;
-  margin-left: 20%;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 .mespassions .jv, .mespassions .cuisine, .mespassions .histoire {
   display: flex;
@@ -245,6 +247,7 @@ body .navigation {
   width: 150px;
 }
 .mespassions .sport .football {
+  margin: 0;
   transform: brightness(1);
   background-image: url("../medias/football.png");
   padding: 0;
@@ -264,6 +267,7 @@ body .navigation {
   transform: brightness(1.5);
 }
 .mespassions .sport .course {
+  margin: 0;
   background-image: url("../medias/course.png");
   padding: 0;
   margin: auto 0;
